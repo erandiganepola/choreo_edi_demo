@@ -3,7 +3,7 @@ import ballerina/http;
 import chathurace/edi;
 
 service / on new http:Listener(8080) {
-    
+
     resource function post convert(http:Request request) returns json|error {
         stream<byte[], io:Error?> byteStream = check request.getByteStream();
         byte[] bytes = [];

@@ -3,6 +3,7 @@ org = "erandiganepola"
 name = "BnD"
 version = "0.1.0"
 distribution = "2201.3.2"
+include = ["resources"]
 
 [build-options]
 observabilityIncluded = true

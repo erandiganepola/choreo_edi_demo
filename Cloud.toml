@@ -1,0 +1,3 @@
+[[cloud.config.files]]
+    file="resources/edi-mapping1.json"
+    mount_path="/home/ballerina/foo/resources/edi-mapping1.json"
